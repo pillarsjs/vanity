@@ -1,0 +1,34 @@
+{
+  "name": "vanity-stats",
+  "version": "0.1.0",
+  "description": "A very egocentric way to measure our evangelization campaign",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pillarsjs/vanity.git"
+  },
+  "keywords": [
+    "stats",
+    "github",
+    "npm",
+    "pillarsjs"
+  ],
+  "author": {
+    "name": "Pillarsjs",
+    "url": "https://github.com/pillarsjs"
+  },
+  "contributors": [
+    {
+      "name": "Ulises Gascón",
+      "url": "https://github.com/ulisesGascon"
+    }
+  ]
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pillarsjs/vanity/issues"
+  },
+  "homepage": "https://github.com/pillarsjs/vanity#readme"
+}
