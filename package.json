@@ -25,10 +25,14 @@
       "name": "Ulises Gascón",
       "url": "https://github.com/ulisesGascon"
     }
-  ]
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/pillarsjs/vanity/issues"
   },
-  "homepage": "https://github.com/pillarsjs/vanity#readme"
+  "homepage": "https://github.com/pillarsjs/vanity#readme",
+  "dependencies": {
+    "goblindb": "0.0.8",
+    "pillars": "^0.6.4"
+  }
 }
