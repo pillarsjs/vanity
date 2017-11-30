@@ -1,5 +1,6 @@
 var project = require('pillars'),
-    GDB = require("goblindb");
+    GDB = require("goblindb"),
+    config = require('./config');
 
 // Goblin Setup
 var goblinDB = GDB();
