@@ -19,11 +19,9 @@ project.services.get('http').configure({
 // Root
 project.routes.add(new Route({
     id: 'root',
-    path: '/',
-    directory: {
-        path: './public/index.html',
-        listing: true
-    }
+    path: '/'
+},function(gw){
+    gw.render('./public/index.html');
 }));
 
 project.routes.add(new Route({
