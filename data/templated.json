@@ -1,0 +1,20 @@
+{
+    "description": "Multi template engine manager for Node.js.",
+    "github": {
+        "total_branches": 1,
+        "total_commits": 28,
+        "total_forks": 0,
+        "total_open_issues": 0,
+        "total_open_pr": 0,
+        "total_releases": 0,
+        "total_stars": 2,
+        "total_watchers": 3
+    },
+    "npm": {
+        "daily_downloads": 26,
+        "monthly_downloads": 202,
+        "weekly_downloads": 78
+    },
+    "organization": "pillarsjs",
+    "repository": "templated"
+}

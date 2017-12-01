@@ -1,0 +1,20 @@
+{
+    "description": "Async event manager for Node.js Objects -> new Eventium(object);object.eventium.on('open',function(object,meta,done){...});object.eventium.fire('open',meta,callback);",
+    "github": {
+        "total_branches": 1,
+        "total_commits": 4,
+        "total_forks": 0,
+        "total_open_issues": 0,
+        "total_open_pr": 0,
+        "total_releases": 0,
+        "total_stars": 1,
+        "total_watchers": 2
+    },
+    "npm": {
+        "daily_downloads": 1,
+        "monthly_downloads": 49,
+        "weekly_downloads": 3
+    },
+    "organization": "pillarsjs",
+    "repository": "eventium"
+}

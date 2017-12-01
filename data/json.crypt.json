@@ -1,0 +1,20 @@
+{
+    "description": "Encrypt/Decrypt manager for JS objects in Node.js: JSON.crypt(object)",
+    "github": {
+        "total_branches": 1,
+        "total_commits": 7,
+        "total_forks": 1,
+        "total_open_issues": 0,
+        "total_open_pr": 0,
+        "total_releases": 0,
+        "total_stars": 1,
+        "total_watchers": 3
+    },
+    "npm": {
+        "daily_downloads": 2,
+        "monthly_downloads": 58,
+        "weekly_downloads": 16
+    },
+    "organization": "pillarsjs",
+    "repository": "json.crypt"
+}

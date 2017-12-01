@@ -1,0 +1,20 @@
+{
+    "description": "Scheduled job manager for JavaScript, linux cron pattern.",
+    "github": {
+        "total_branches": 1,
+        "total_commits": 22,
+        "total_forks": 1,
+        "total_open_issues": 1,
+        "total_open_pr": 0,
+        "total_releases": 0,
+        "total_stars": 3,
+        "total_watchers": 3
+    },
+    "npm": {
+        "daily_downloads": 2,
+        "monthly_downloads": 128,
+        "weekly_downloads": 28
+    },
+    "organization": "pillarsjs",
+    "repository": "scheduled"
+}

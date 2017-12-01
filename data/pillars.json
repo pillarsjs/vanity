@@ -1,0 +1,20 @@
+{
+    "description": "Pillars.js is a modular framework for web development in Node.js",
+    "github": {
+        "total_branches": 2,
+        "total_commits": 304,
+        "total_forks": 4,
+        "total_open_issues": 1,
+        "total_open_pr": 0,
+        "total_releases": 4,
+        "total_stars": 40,
+        "total_watchers": 15
+    },
+    "npm": {
+        "daily_downloads": 2,
+        "monthly_downloads": 976,
+        "weekly_downloads": 111
+    },
+    "organization": "pillarsjs",
+    "repository": "pillars"
+}

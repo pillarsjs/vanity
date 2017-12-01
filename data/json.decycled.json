@@ -1,0 +1,20 @@
+{
+    "description": "Decycled versión for JSON.stringify, resolve circulars and more. Reverse by JSON.revive().",
+    "github": {
+        "total_branches": 1,
+        "total_commits": 24,
+        "total_forks": 1,
+        "total_open_issues": 0,
+        "total_open_pr": 0,
+        "total_releases": 2,
+        "total_stars": 8,
+        "total_watchers": 3
+    },
+    "npm": {
+        "daily_downloads": 34,
+        "monthly_downloads": 747,
+        "weekly_downloads": 160
+    },
+    "organization": "pillarsjs",
+    "repository": "json.decycled"
+}

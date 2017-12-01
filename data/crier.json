@@ -1,0 +1,20 @@
+{
+    "description": "Log dispatcher , multi store, tree grouping, formatter, meta handling, error handling.",
+    "github": {
+        "total_branches": 1,
+        "total_commits": 16,
+        "total_forks": 0,
+        "total_open_issues": 0,
+        "total_open_pr": 0,
+        "total_releases": 0,
+        "total_stars": 4,
+        "total_watchers": 4
+    },
+    "npm": {
+        "daily_downloads": 2,
+        "monthly_downloads": 158,
+        "weekly_downloads": 4
+    },
+    "organization": "pillarsjs",
+    "repository": "crier"
+}

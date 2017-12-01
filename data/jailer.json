@@ -1,0 +1,20 @@
+{
+    "description": "Simple key checking methodology.",
+    "github": {
+        "total_branches": 1,
+        "total_commits": 11,
+        "total_forks": 0,
+        "total_open_issues": 0,
+        "total_open_pr": 0,
+        "total_releases": 2,
+        "total_stars": 3,
+        "total_watchers": 3
+    },
+    "npm": {
+        "daily_downloads": 1,
+        "monthly_downloads": 61,
+        "weekly_downloads": 8
+    },
+    "organization": "pillarsjs",
+    "repository": "jailer"
+}
