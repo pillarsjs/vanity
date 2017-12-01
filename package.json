@@ -35,6 +35,6 @@
   "homepage": "https://github.com/pillarsjs/vanity#readme",
   "dependencies": {
     "goblindb": "0.0.8",
-    "pillars": "^0.6.4"
+    "pillars": "0.6.4"
   }
 }
