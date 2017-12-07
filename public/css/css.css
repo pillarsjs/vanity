@@ -1,0 +1,564 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,700');
+
+/*  
+    Title: CSSinit
+    Description: Initializing and normalizing browser styles.
+    Author: Ángel Corral Arias
+    Version: 1.1.2
+*/
+
+html , body , div , span , applet , object , iframe , h1 , h2 , h3 , h4 , h5 , h6 , p , blockquote , pre , a , abbr , acronym , address , big , cite , code , del , dfn , em , img , ins , kbd , q , s , samp , small , strike , strong , sub , sup , tt , var , b , u , i , dl , dt , dd , ol , ul , li , fieldset , form , label , legend , table , caption , tbody , tfoot , thead , tr , th , td , article , aside , canvas , details , embed , figure , figcaption , footer , header , menu , nav , output , ruby , section , summary , time , mark , audio , video , main , button , progress {
+	margin: 0 ;
+	padding: 0 ;
+	border: 0 ;
+	font-size: 100% ;
+    word-wrap: break-word ;
+	vertical-align: baseline ;
+    }
+
+iframe , video , article , aside , details , figcaption , figure , footer, header , menu , nav , section , main , canvas , embed, img {
+	display: block ;
+    }
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0 ;
+    }
+
+th , thead , table caption {
+    text-align: left ;
+    }
+
+code {
+    font-family: monospace ;
+    }
+
+small {
+    font-size: 80% ;
+    }
+
+nav li {
+    vertical-align: top ;
+    list-style-type: none ;
+    }
+
+sub , sup {
+    font-size: 70% ;
+    line-height: 0 ;
+    position: relative ;
+    vertical-align: baseline ;
+    }
+sub {   bottom: -0.33em ;    }
+sup {   top:    -0.66em ;    }
+
+button {
+    box-sizing: content-box ;
+    background-color: transparent ;
+    }
+
+:not(p) a   {
+    text-decoration: none ;
+    }
+
+nav li , :not(p) a , button , input[type="button"] , input[type="submit"]  {
+    user-select: none ;
+    }
+
+img , embed , iframe , object , audio , video {
+    height: auto ;
+    max-width: 100% ;
+    }
+
+html {
+    font-family: "Source Sans Pro", sans-serif ;
+    line-height: 1.5 ;
+    font-size: 125% ;
+    font-weight: 400 ;
+    text-rendering: optimizeLegibility ;
+    -ms-text-size-adjust: 100% ;
+    -webkit-text-size-adjust: 100% ;
+    }
+
+.ico    {
+    display: inline-block ;
+    vertical-align: middle ;
+    line-height: normal ;
+    width: 1em ;
+    height: 1em ;
+    position: relative ;
+    margin-right: .35em ;
+    top: -.08em ;
+    }
+
+.ico > svg   {
+    height: 100% ;
+    width: 100% ;
+    fill: currentColor ;
+    }
+
+.flexibleMedia {
+    width: auto ;
+    height: auto ;
+    display: block ;
+    max-width: 100% ;   
+    }
+
+.flexibleIframe-wrapper {
+    display: block ;
+    width: 100% ;
+    padding-top: 56.5% ; /* 16:9 aspect ratio */
+    }
+
+.flexibleIframe-wrapper.prop-4x3  { padding-top: 75%    }
+.flexibleIframe-wrapper.prop-1x1  { padding-top: 100%   }
+.flexibleIframe-wrapper.prop-21x9 { padding-top: 42.85% }
+
+.flexibleIframe-wrapper > iframe {
+    position: absolute ;
+    width: 100% ;
+    height: 100% ;
+    top: 0 ;
+    left: 0 ;
+    }   
+
+.iconsLib {
+    display: none ;
+}
+
+
+
+
+body {
+    padding-bottom: 4em ;
+    background-color: rgb(230,230,245) ;
+    color: #445 ;
+    background-image: url(ui-img/greek-pattern.png) ;
+    background-repeat: repeat-x ;
+    background-position: left bottom ;
+    background-clip: border-box;
+    background-size: auto 4em ;
+    }
+
+.mainHeader {
+    background-color: #D20C44 ;
+    padding: .5em .35em .75em ;
+    font-size: 2.5rem ;
+    background-image: url(ui-img/greek-pattern.png) ;
+    background-repeat: repeat-x ;
+    background-position: left bottom ;
+    background-size: auto .4em ;
+    border: 0 ;
+    border-bottom: 3px solid #D20C44 ;
+    transition: all .25s ;
+    }
+
+.logo {
+    color: #fff ;
+    font-weight: 200 ;
+    letter-spacing: -.035em ;
+    }
+
+.logo span {
+    position: absolute ;
+    font-size: .25em ;
+    font-weight: 300 ;
+    letter-spacing: .25em ;
+    text-transform: uppercase ;
+    top: 1.8em ;
+    transition: all .25s ;
+    }
+
+.logo em {
+    font-weight: 700 ;
+    font-style: normal ;
+    letter-spacing: -.02em ;
+    }
+
+
+.social {
+    position: absolute ;
+    top: .25em ;
+    right: .4em ;
+    list-style-type: none ;
+    font-size: 2.5rem ;
+    }
+
+.social a {
+    display: block ;
+    width: 2em ;
+    height: 2em ;
+    color: #fff ;
+    font-size: 1rem ;
+    margin-left: 1em ;
+    margin-bottom: .4em ;
+    background-size: 99% ;
+    background-repeat: no-repeat ;
+    opacity: .45 ;
+    transition: all .15s ;
+    }
+.social a:hover {
+    opacity: 1 ;
+    transform: scale(1.1)
+    }
+
+.ghub {
+    background-image: url(ui-img/github.svg) ;
+    }
+.twit {
+    background-image: url(ui-img/twitter.svg) ;
+    }
+
+.totals {
+    width: 77% ;
+    max-width: 30em ;
+    background-color: #232433 ;
+    list-style-type: none ;
+    font-size: .85rem ;
+    display: flex ;
+    justify-content: space-between;
+    color: #fff ;
+    border-radius: 0 3px 3px 0 ;
+    padding: .25em ;
+    margin-top: .5em ;
+    position: absolute ;
+    top: 6.1em ;
+    left: 0 ;
+    } 
+
+.totals svg {
+    fill: #E16A8A ;
+    }
+
+.totals li {
+    width: 33.33% ;
+    text-align: center ;
+    -webkit-font-smoothing: antialiased ;
+    font-weight: 700 ;
+    color: #fff ;
+    }
+
+.totals li + li    {
+    border-left: 1px solid #000 ;
+    }
+
+@media all and (min-width: 1000px) {
+    
+    .totals {
+        border-top: 3px solid black ;
+        width: auto ;
+        left: auto ;
+        right: 11em ;
+        top: 0 ;
+        border-radius: 0 0 12px 12px ;
+        margin: 0 ;
+        } 
+    
+    .totals li {
+        padding: .15em 0 .45em ;
+        width: 7em ;
+        font-size: 1.35em ;
+        }
+    
+    .totals .ico {
+        width: 1.2em ;
+        height: 1.2em ;
+        margin-right: .5em ;
+        }   
+}
+
+main {
+    padding: 0 .7em ;
+    background-image: url(ui-img/pillar.svg) ;
+    background-repeat: repeat-x ;
+    background-position: top ;
+    }
+
+main section:first-child {
+    margin: 1em 1.2em 2em auto ;
+    max-width: 70ch ;
+    color: #223 ;
+    }
+
+main section:first-child h1 {
+    font-size: 4rem ;
+    letter-spacing: -2px ;
+    line-height: 1 ;
+    margin: .55em 0 .3em ;
+    }
+
+main section:first-child h1 a {
+    padding: 0 .1em 0 .02em ;
+    position: relative ;
+    transition: all .15s ;
+    z-index: 0 ;
+    display: inline-block
+    }
+
+main section:first-child h1 a::after {
+    content: "" ;
+    width: 100% ;
+    height: 5px ;
+    position: absolute ;
+    bottom: 2px ;
+    z-index: -1 ;
+    left: 0 ;
+    transition: all .15s ;
+    }
+
+main section:first-child h1 a:hover {
+    color: #FFF;
+    }
+
+main section:first-child h1 a:hover::after {
+    height: 112% ;
+    bottom: -.1em ;
+    border-radius: 4px ;
+    background-color: #D20C44;
+    }
+
+.vanityPackages {
+    margin: 3em auto 2em ;
+    display: flex ;
+    flex-wrap: wrap ;
+    justify-content: center ;
+    }
+
+article {
+    width: 100% ;
+    margin: 0 1.5% 2.5em ;
+    padding-top: 0;
+    padding-left: 2.5em ;
+    padding-right: 2.5em ;
+    padding-bottom: 6em ;
+    background-color: #fff ;
+    box-sizing: border-box ;
+    filter: drop-shadow(0 8px 6px rgba(0,0,0,.15) ) ;
+    font-size: 1rem ;
+    position: relative ;
+    }
+
+article::before , article::after , article h1::before , article h1::after  {
+    content: "" ;
+    width: 1.1rem ;
+    height: 1.1rem ;
+    position: absolute ;
+    bottom: 0 ;
+    left: -.8rem ;
+    background-image: url(ui-img/capitel.svg) ;
+    background-size: 100% ;
+    transform: scaleY(-1) ;
+    }
+
+article::after , article h1::after  {
+    left: auto ;
+    right: -.8rem ;
+    transform: scale(-1) ;
+    }
+
+article h1 {
+    padding-top: .75em ;
+    margin-bottom: .5em ;
+    font-size: 1.5rem ;
+    }
+
+article h1::before , article h1::after  {
+    bottom: auto ;
+    top: 0 ;
+    transform: scaleY(1) ;
+    }
+
+article h1::after {
+    transform: scaleX(-1) ;
+    }
+
+article p {
+    font-size: .75rem ;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" , monospace ;
+    }
+
+article p::before {
+    content: "" ;
+    height: 100% ;
+    position: absolute ;
+    width: 3px ;
+    background: rgb(230,230,245) ;
+    top: 0 ;
+    left: 5px ;
+    z-index: 10 ;
+    }
+
+article p::after {
+    content: "" ;
+    height: 100% ;
+    position: absolute ;
+    width: 3px ;
+    background: rgb(230,230,245) ;
+    top: 0 ;
+    right: 5px ;
+    z-index: 10 ;
+    }
+
+a {
+    color: #D20C44;
+    }
+
+a:hover {
+    color: #E16A8A;
+    }
+
+article footer {
+    width: 88% ;
+    background-color: #222333 ;
+    position: absolute ;
+    bottom: 0 ;
+    left: 50% ;
+    transform: translateX(-50%) ;
+    border-bottom: 1px solid rgb(230,230,245)  ;
+    border-radius: 10px 10px 0 0 ;
+    z-index: 100 ;
+    font-size: .85rem ;
+    }
+
+ul.statistics {
+    font-size: .85rem ;
+    display: flex ;
+    justify-content: space-between ;
+    list-style-type: none ;
+    background-color: #222333 ;
+    border-radius: 4px 4px 0 0 ;
+    border-bottom: 2px solid #000 ;
+    }
+
+.statistics svg {
+    fill: #E16A8A ;
+}
+
+.links {
+    display: flex ;
+    }
+
+.statistics li {
+    width: 100px ;
+    padding: .25em 0 .25em ;
+    text-align: center ;
+    -webkit-font-smoothing: antialiased ;
+    font-weight: 700 ;
+    color: #fff ;
+    }
+
+.statistics li + li    {
+    border-left: 1px solid #000 ;
+    }
+
+.links a {
+    width: 50% ;
+    padding: .85em 0 ;
+    color: #fff ;
+    font-weight: 700 ;
+    letter-spacing: .5px ;
+    text-align: center ;
+    background-image:linear-gradient( to bottom , #E16A8A 0% , #D20C44 50% ) ;
+    background-size: 100% ;
+    background-position: top ;
+    transition: all .15s ;
+    }
+
+.links a + a    {
+    border-left: 1px solid #D20C44 ;
+    }
+
+.links a:hover {
+    background-size: 250% ;
+    background-color: #D20C44 ;
+    }
+
+.mainFooter {
+    padding: 0 2em ;
+    margin-bottom: 1em ;
+    text-align: center ;
+    opacity: .35
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (min-width: 670px) {
+    
+    main {
+        padding: .5em ;
+        }
+
+    article {
+        width: 44% ;
+        margin: 0 3% 3em ;
+        padding-left: 1.7em ;
+        padding-right: 1.7em ;
+        }
+    
+    .vanityPackages::after {
+        content: "" ;
+        flex: auto ;
+        }
+}
+
+
+
+@media all and (min-width: 1050px) {
+
+    main {
+        padding: .75em ;
+        }
+
+    article {
+        width: 29% ;
+        margin: 0 2% 3em ;
+        }
+     
+    .vanityPackages::after {
+        content: "" ;
+        flex: auto ;
+        }
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+
+@media all and (min-width: 1390px) {
+
+    article {
+        max-width: 30em ;
+        width: 22% ;
+        margin: 0 1.5% 3em ;
+        }
+    
+    .vanityPackages::after {
+        content: "" ;
+        flex: auto ;
+        }
+}
+
+
+
+
+
+
+
+
+
+
