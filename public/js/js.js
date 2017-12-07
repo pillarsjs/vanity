@@ -1,5 +1,3 @@
-
-
 function capitalizeFirstLetter(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
 }
@@ -15,7 +13,7 @@ function fillHtml(data){
         
         starsAll += pkg.github.total_stars ;
         commitsAll += pkg.github.total_commits ;
-        downloadsAll += pkg.github.monthly_downloads ;
+        downloadsAll += pkg.npm.monthly_downloads ;
         
         detailsData += `<article>
             <h1>${capitalizeFirstLetter(pkg.repository)}</h1>
@@ -33,9 +31,7 @@ function fillHtml(data){
             </footer>
           </article>`;
     });
-    
     document.querySelector(".vanityPackages").innerHTML = detailsData;
-    
     document.querySelector(".totals .stars span").innerHTML = starsAll;
     document.querySelector(".totals .commits span").innerHTML = commitsAll;
     document.querySelector(".totals .downloads span").innerHTML = downloadsAll;
