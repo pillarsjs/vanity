@@ -11,9 +11,9 @@
         "total_watchers": 3
     },
     "npm": {
-        "daily_downloads": 2,
-        "monthly_downloads": 58,
-        "weekly_downloads": 16
+        "daily_downloads": 7,
+        "monthly_downloads": 45,
+        "weekly_downloads": 17
     },
     "organization": "pillarsjs",
     "repository": "json.crypt"

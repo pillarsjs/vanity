@@ -11,9 +11,9 @@
         "total_watchers": 2
     },
     "npm": {
-        "daily_downloads": 1,
-        "monthly_downloads": 49,
-        "weekly_downloads": 3
+        "daily_downloads": 7,
+        "monthly_downloads": 47,
+        "weekly_downloads": 17
     },
     "organization": "pillarsjs",
     "repository": "eventium"

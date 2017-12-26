@@ -11,9 +11,9 @@
         "total_watchers": 3
     },
     "npm": {
-        "daily_downloads": 1,
-        "monthly_downloads": 61,
-        "weekly_downloads": 8
+        "daily_downloads": 7,
+        "monthly_downloads": 53,
+        "weekly_downloads": 17
     },
     "organization": "pillarsjs",
     "repository": "jailer"

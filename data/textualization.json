@@ -2,7 +2,7 @@
     "description": "Internationalization (i18n) for Node.js => i18n('path.to.mi.text',{...params...},lang);",
     "github": {
         "total_branches": 1,
-        "total_commits": 51,
+        "total_commits": 53,
         "total_forks": 2,
         "total_open_issues": 0,
         "total_open_pr": 0,
@@ -11,9 +11,9 @@
         "total_watchers": 4
     },
     "npm": {
-        "daily_downloads": 2,
-        "monthly_downloads": 230,
-        "weekly_downloads": 26
+        "daily_downloads": 7,
+        "monthly_downloads": 164,
+        "weekly_downloads": 16
     },
     "organization": "pillarsjs",
     "repository": "textualization"

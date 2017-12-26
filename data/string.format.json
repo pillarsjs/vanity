@@ -11,9 +11,9 @@
         "total_watchers": 4
     },
     "npm": {
-        "daily_downloads": 34,
-        "monthly_downloads": 810,
-        "weekly_downloads": 179
+        "daily_downloads": 11,
+        "monthly_downloads": 726,
+        "weekly_downloads": 141
     },
     "organization": "pillarsjs",
     "repository": "string.format"

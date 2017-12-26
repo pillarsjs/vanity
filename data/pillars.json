@@ -7,13 +7,13 @@
         "total_open_issues": 1,
         "total_open_pr": 0,
         "total_releases": 4,
-        "total_stars": 40,
+        "total_stars": 41,
         "total_watchers": 15
     },
     "npm": {
-        "daily_downloads": 2,
-        "monthly_downloads": 976,
-        "weekly_downloads": 111
+        "daily_downloads": 14,
+        "monthly_downloads": 686,
+        "weekly_downloads": 130
     },
     "organization": "pillarsjs",
     "repository": "pillars"

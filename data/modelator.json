@@ -12,8 +12,8 @@
     },
     "npm": {
         "daily_downloads": 0,
-        "monthly_downloads": 20,
-        "weekly_downloads": 2
+        "monthly_downloads": 10,
+        "weekly_downloads": 0
     },
     "organization": "pillarsjs",
     "repository": "modelator"
